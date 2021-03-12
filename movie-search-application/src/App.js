@@ -13,6 +13,7 @@ const App = () => {
     { id: '4', name: 'Cinderella' },
 ];
 
+//TODO: get this api call working and add test - need to add resp into an array to then call via search button
 const dataUrl = "https://api.themoviedb.org/3/movie/550?api_key=1b9fe768a428542a8658b09cb7af5b23";
 
 fetch(dataUrl)
